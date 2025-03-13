@@ -6,7 +6,7 @@ public class Main {
                         {5, 2, 6, 8, 4, 3}, // candidate 1
                         {13, 15, 10, 12, 11, 17}, // candidate 2;
                 };
-        int voteCount = 0;
+        int voteCount;
         System.out.println("Votes Table Length " + votesTable.length);
         for (int[] row : votesTable) { // each row (candidate )
             voteCount = 0 ;
